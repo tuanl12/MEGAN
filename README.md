@@ -3,7 +3,7 @@ Implementation of MEGAN: Mixture of Experts of Generative Adversarial Networks f
 <p align="center"><img width="40%" src="PNG/logo3.PNG" /></p>
 
 --------------------------------------------------------------------------------
-This repository provides a PyTorch implementation of [Text2Colors](https://arxiv.org/abs/1804.04128). Text2Colors is capable of producing plausible colors (or color palette) given variable length of text input, and colorize a grayscale image based on the colors.
+This repository provides a PyTorch implementation of [Mixture of Experts GAN](ARXIV). Each generator in MEGAN is capable of learning salient and distinct features.
 
 <p align="center"><img width="100%" src="PNG/main.PNG" /></p>
 
