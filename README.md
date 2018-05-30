@@ -7,7 +7,7 @@ Implementation of MEGAN: Mixture of Experts of Generative Adversarial Networks f
 --------------------------------------------------------------------------------
 This repository provides a PyTorch implementation of [Mixture of Experts GAN](ARXIV). Each generator in MEGAN is capable of learning salient and distinct features.
 
-<p align="center"><img width="100%" src="PNG/main.PNG" /></p>
+<p align="center"><img width="100%" src="PNG/intro.PNG" /></p>
 
 &nbsp;
 
@@ -21,7 +21,7 @@ This repository provides a PyTorch implementation of [Mixture of Experts GAN](AR
 
 ## Model Description
 ### Main Networks and Gating Networks
-<p align="center"><img width="100%" src="PNG/main_networks.PNG" /></p>
+<p align="center"><img width="100%" src="PNG/main_net.PNG" /></p>
 The proposed architecture of MEGAN; <b>(a)</b> shows the overview of our main networks. Given a latent vector <b>z</b>, each of the n generators produces an output o<sub>i</sub>. The latent vector <b>z</b> and n feature vectors (denoted in yellow) extracted from the generators are given as input to the gating networks that produce a one-hot vector <b>g</b>, as shown in the middle. The chosen image by the one-hot vector (marked as "Fake Image") will be fed into the discriminator that measures the adversarial loss with regard to both real and fake classes. <b>(b)</b> illustrates an in-depth view on the gating networks. The gating networks output a one-hot vector <b>g</b>.
 
 &nbsp;
