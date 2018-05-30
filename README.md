@@ -4,7 +4,7 @@ This repository is under construction. Please wait for the update slated to the 
 Implementation of MEGAN: Mixture of Experts of Generative Adversarial Networks for Multimodal Image Generation
 
 --------------------------------------------------------------------------------
-This repository provides a PyTorch implementation of [Mixture of Experts GAN](ARXIV). Each generator in MEGAN is capable of learning salient and distinct features.
+This repository provides a PyTorch implementation of [Mixture of Experts GAN](ARXIV), IJCAI'18. Each generator in MEGAN is capable of learning salient and distinct features.
 
 <p align="center"><img width="70%" src="PNG/intro.PNG" /></p>
 
