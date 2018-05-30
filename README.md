@@ -7,7 +7,7 @@ Implementation of MEGAN: Mixture of Experts of Generative Adversarial Networks f
 --------------------------------------------------------------------------------
 This repository provides a PyTorch implementation of [Mixture of Experts GAN](ARXIV). Each generator in MEGAN is capable of learning salient and distinct features.
 
-<p align="center"><img width="100%" src="PNG/intro.PNG" /></p>
+<p align="center"><img width="70%" src="PNG/intro.PNG" /></p>
 
 &nbsp;
 
