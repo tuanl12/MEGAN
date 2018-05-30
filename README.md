@@ -1,7 +1,7 @@
 # MEGAN
 This repository is under construction. Please wait for the update slated to the nearest future!
 
-Implementation of MEGAN: Mixture of Experts of Generative Adversarial Networks for  Image Generation via Categorical Reparameterization
+Implementation of MEGAN: Mixture of Experts of Generative Adversarial Networks for Multimodal Image Generation
 <p align="center"><img width="40%" src="PNG/logo3.PNG" /></p>
 
 --------------------------------------------------------------------------------
