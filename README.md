@@ -53,7 +53,12 @@ The proposed architecture of MEGAN; <b>(a)</b> shows the overview of our main ne
 ## Citation
 If this work is useful for your research, please cite our [paper](ARXIV).
 ```
-REFERENCE to be announced
+@article{park2018megan,
+  title={MEGAN: Mixture of Experts of Generative Adversarial Networks for Multimodal Image Generation},
+  author={Park, David Keetae and Yoo, Seungjoo and Bahng, Hyojin and Choo, Jaegul and Park, Noseong},
+  journal={arXiv preprint arXiv:1805.02481},
+  year={2018}
+}
 ```
 &nbsp;
 
