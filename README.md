@@ -45,10 +45,31 @@ The proposed architecture of MEGAN; <b>(a)</b> shows the overview of our main ne
 ## Usage
 (codes and guidelines will be updated shortly!)
 #### 1. Clone the repository
+```bash
+$ git clone https://github.com/heykeetae/MEGAN.git
+$ cd MEGAN
+```
 
-#### 2. Dataset & Libraries install
+#### 2. Install datasets
+- for CelebA and LSUN
+```bash
+$ bash download.sh CelebA
+$ bash download.sh LSUN
+```
+- for CIFAR-10
+Dataset will be automatically downloaded by the training code.
 
-#### 3. Train 
+#### 3. Train
+- CIFAR-10 
+python main.py --dataset cifar --batch_size 64
+- CelebA
+python main.py --dataset celeb --batch_size 64
+- LSUN
+python main.py --dataset lsun --batch_size 64
+
+#### 4. Results
+- 4 Folders (./data, ./logs, ./models, ./samples) will be generated. Visual samples will be generated every 100 iterations by default.
+- Two parameters, self.score_epoch and self.score_start, control the frequency of model saving and calculating quantitative measures.
 
 ## Citation
 If this work is useful for your research, please cite our [paper](ARXIV).
